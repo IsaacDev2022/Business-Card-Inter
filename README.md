@@ -14,3 +14,18 @@
   <li> ViewBinding</li>
   <li> SearchVew </li>
 </ul>
+<hr>
+<h3> Algumas imagens da aplicação: </h3>
+<div>
+  <img src="https://user-images.githubusercontent.com/56280877/135866356-5ca18095-c8fb-411c-b8e2-9319ce26cb98.jpg" width="200px" />
+
+  <img src="https://user-images.githubusercontent.com/56280877/135866420-d28ceb7a-1dbb-4778-93ad-f97e0a08e457.jpg" width="200px" />
+
+  <img src="https://user-images.githubusercontent.com/56280877/135866573-632b7ce7-6f4e-4222-a9c7-6c2fb3c21bc1.jpg" width="200px" />
+
+  <img src="https://user-images.githubusercontent.com/56280877/135866643-05886e25-b522-48bf-8e51-b162b7d1003e.jpg" width="200px" />
+  
+  <img src="https://user-images.githubusercontent.com/56280877/135866680-0876e18f-5535-429f-b703-262f134963a5.jpg" width="200px" />
+  
+  <img src="https://user-images.githubusercontent.com/56280877/135866749-0522db97-5b58-44ca-852d-8d0478a180e1.jpg" width="200px" />
+</div>
