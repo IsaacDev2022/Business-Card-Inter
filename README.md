@@ -2,7 +2,7 @@
 
 # Business Card Inter Bootcamp
 
-<p> Esse é um aplicativo criado para O Bootcamp da DIO em parceiria com o banco Inter. Trata-se de um aplicativo simples que cadastra cartões, possui as opções de cadastrar os cartões, pesquisar e remover </p>
+<p> Esse é um aplicativo criado para o Bootcamp da DIO em parceiria com o banco Inter. Trata-se de um aplicativo simples que cadastra cartões, possui as opções de cadastrar os cartões, pesquisar e remover </p>
 <p> O software desenvolvido segue a arquitetura MVVM e banco de dados ROOM, possuindo também uma feature chamada Image Share, onde temos a opção de compartilhar o nosso cartão em qualquer rede social apenas clicando nele. </p>
 <hr>
 <h3> Tecnologias e ferramentas utilizadas no desenvolvimento: </h3>
@@ -29,3 +29,9 @@
   
   <img src="https://user-images.githubusercontent.com/56280877/135866749-0522db97-5b58-44ca-852d-8d0478a180e1.jpg" width="200px" />
 </div>
+<hr>
+<h3> Implementações futuras: </h3>
+<ul>
+  <li> Jetback - Fragments </li>
+  <li> ChipGrou para a input das cores </li>
+</ul>
