@@ -13,6 +13,7 @@
   <li> ImageShare </li>
   <li> ViewBinding</li>
   <li> SearchVew </li>
+  <li> ChipGroup - Material design </li>
 </ul>
 <hr>
 <h3> Algumas imagens da aplicação: </h3>
@@ -29,9 +30,4 @@
   
   <img src="https://user-images.githubusercontent.com/56280877/135866749-0522db97-5b58-44ca-852d-8d0478a180e1.jpg" width="200px" />
 </div>
-<hr>
-<h3> Implementações futuras: </h3>
-<ul>
-  <li> Jetback - Fragments </li>
-  <li> ChipGrou para a input das cores - Implementado </li>
-</ul>
+
