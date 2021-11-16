@@ -33,5 +33,5 @@
 <h3> Implementações futuras: </h3>
 <ul>
   <li> Jetback - Fragments </li>
-  <li> ChipGrou para a input das cores </li>
+  <li> ChipGrou para a input das cores - Implementado </li>
 </ul>
