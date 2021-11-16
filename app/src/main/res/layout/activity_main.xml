@@ -7,7 +7,6 @@
     android:background="@drawable/background"
     tools:context=".ui.view.MainActivity">
 
-
     <include
         android:id="@+id/include_empty"
         android:visibility="gone"

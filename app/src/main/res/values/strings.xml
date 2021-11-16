@@ -1,4 +1,5 @@
 <resources>
+    <!-- Textos da aplicação -->
     <string name="app_name">Business Card</string>
     <string name="label_business_cards">Cartões de visita</string>
     <string name="label_description_new_card">Novo cartão</string>
@@ -14,4 +15,13 @@
     <string name="label_share_to">Compartilhar</string>
     <string name="hint_nome">Nome</string>
     <string name="hint_telefone">Telefone</string>
+
+    <string-array name="colors">
+        <item> Vermelho </item>
+        <item> Amarelo </item>
+        <item> Azul </item>
+        <item> Branco </item>
+        <item> Verde </item>
+        <item> Laranja </item>
+    </string-array>
 </resources>

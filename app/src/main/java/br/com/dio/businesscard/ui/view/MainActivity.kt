@@ -4,23 +4,22 @@ import android.Manifest
 import android.content.Intent
 import android.os.Bundle
 import android.view.Menu
-import android.view.SearchEvent
 import android.view.View
+import android.widget.ArrayAdapter
 import android.widget.SearchView
 import android.widget.Toast
 import androidx.activity.viewModels
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.app.ActivityCompat
+import androidx.core.content.ContentProviderCompat.requireContext
 import br.com.dio.businesscard.App
 import br.com.dio.businesscard.R
-import br.com.dio.businesscard.data.repository.BusinessCardRepository
 import br.com.dio.businesscard.databinding.ActivityMainBinding
 import br.com.dio.businesscard.ui.BusinessCardAdapter
 import br.com.dio.businesscard.ui.MainViewModel
 import br.com.dio.businesscard.ui.MainViewModelFactory
 import br.com.dio.businesscard.util.Image
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
-import kotlinx.coroutines.flow.observeOn
 
 class MainActivity : AppCompatActivity(), SearchView.OnQueryTextListener {
 

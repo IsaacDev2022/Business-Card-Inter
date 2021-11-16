@@ -9,4 +9,12 @@
     <color name="white">#FFFFFFFF</color>
     <color name="primary">#78aae3</color>
     <color name="secondary">#B6D8FF</color>
+
+    <!-- Cores dos chips -->
+    <color name="red">#F08181</color>
+    <color name="orange">#F1EE6B</color>
+    <color name="green">#88F081</color>
+    <color name="gray">#9E9898</color>
+    <color name="blue">#577DF3</color>
+    <color name="pink">#B76CF8</color>
 </resources>

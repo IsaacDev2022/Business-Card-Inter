@@ -2,16 +2,17 @@ package br.com.dio.businesscard.ui.view
 
 import android.os.Bundle
 import android.text.TextUtils
+import android.view.View
 import android.widget.Toast
 import androidx.activity.viewModels
 import androidx.appcompat.app.AppCompatActivity
+import androidx.lifecycle.MutableLiveData
 import br.com.dio.businesscard.App
 import br.com.dio.businesscard.R
 import br.com.dio.businesscard.data.model.BusinessCard
 import br.com.dio.businesscard.databinding.ActivityAddBusinessCardBinding
 import br.com.dio.businesscard.ui.MainViewModel
 import br.com.dio.businesscard.ui.MainViewModelFactory
-import org.w3c.dom.Text
 
 class AddBusinessCardActivity : AppCompatActivity() {
 
@@ -21,10 +22,43 @@ class AddBusinessCardActivity : AppCompatActivity() {
         MainViewModelFactory((application as App).repository)
     }
 
+    var cardColorField = ""
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(binding.root)
         insertListeners()
+    }
+
+    fun setCardColor(): String {
+        var color = ""
+
+        binding.chipVermelho.setOnClickListener {
+            cardColorField = "#F08181"
+        }
+
+        binding.chipAmarelo.setOnClickListener {
+            cardColorField = "#F1EE6B"
+        }
+
+        binding.chipVerde.setOnClickListener {
+            cardColorField = "#88F081"
+        }
+
+        binding.chipCinza.setOnClickListener {
+            cardColorField = "#9E9898"
+        }
+
+        binding.chipAzul.setOnClickListener {
+            cardColorField = "#577DF3"
+        }
+
+        binding.chipRoxo.setOnClickListener {
+            cardColorField = "#B76CF8"
+        }
+
+        color = cardColorField
+        return color
     }
 
     private fun insertListeners() {
@@ -35,7 +69,7 @@ class AddBusinessCardActivity : AppCompatActivity() {
                 empresa = binding.tilEmpresa.editText?.text.toString(),
                 telefone = binding.tilTelefone.editText?.text.toString(),
                 email = binding.tilEmail.editText?.text.toString(),
-                fundoPersonalizado = binding.tilCor.editText?.text.toString()
+                fundoPersonalizado = setCardColor()
             )
 
             if (checkEditText(businessCard)) {
