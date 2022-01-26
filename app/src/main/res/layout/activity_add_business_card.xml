@@ -68,7 +68,7 @@
                     android:hint="@string/hint_telefone"
                     style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
                     app:prefixText="+55 "
-                    app:counterMaxLength="11"
+                    app:counterMaxLength="9"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/til_nome"
